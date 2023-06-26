@@ -10,5 +10,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(85, 84, 84);
+    background-color: #272640;
+}
+
+.wrapper {
+    width: 800px;
+    padding: 50px;
+    background: linear-gradient(180deg, #1b3a4b 0%, #144552 35%, #006466 100%);
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 200;
 }
