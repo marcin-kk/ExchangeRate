@@ -6,31 +6,83 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #272640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #272640;
 }
 
 .wrapper {
-    width: 800px;
-    padding: 50px;
-    background: linear-gradient(180deg, #1b3a4b 0%, #144552 35%, #006466 100%);
-    text-align: center;
-    color: white;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 0 0 15px black;
+	width: 800px;
+	padding: 50px;
+	background: linear-gradient(180deg, #1b3a4b 0%, #144552 35%, #006466 100%);
+	text-align: center;
+	color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow: 0 0 15px black;
 }
 
 .wrapper h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+	font-size: 36px;
+	margin-bottom: 10px;
 }
 
 .wrapper p {
-    margin-bottom: 50px;
-    font-size: 26px;
-    font-weight: 200;
+	margin-bottom: 50px;
+	font-size: 26px;
+	font-weight: 200;
+}
+
+.app-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-left,
+.section-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app-body input {
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 60px;
+}
+
+.app-body input,
+.app-body select {
+	color: #fff;
+	border: none;
+	background: none;
+	text-align: center;
+}
+
+.app-body select {
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.app-body input:focus,
+.app-body select:focus {
+    outline: none;
+    color: #660200;
+}
+
+.app-body option {
+    text-align:left;
+    color: #333;
+}
+
+.swap {
+    align-self: flex-end;
+    margin: 5px;
+    padding: 5px 50px;
+    font-size: 30px;
+    
 }
